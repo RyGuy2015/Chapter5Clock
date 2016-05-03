@@ -1,6 +1,7 @@
 using System;
 using Xamarin.Forms;
 
+
 namespace FitToSizeClock
 {
     public class App : Application
