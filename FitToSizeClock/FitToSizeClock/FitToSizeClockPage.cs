@@ -22,7 +22,8 @@ namespace FitToSizeClock
                     // Scale the font size to the page width
                     //      (based on 11 characters in the displayed string).
                     if (this.Width > 0)
-                        clockLabel.FontSize = this.Width / 6;
+                        //clockLabel.FontSize = this.Width / 6;
+                        clockLabel.FontSize = this.Width / 4;
                 };
 
             // Start the timer going.
